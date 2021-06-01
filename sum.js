@@ -4,12 +4,3 @@ function sum(a, b){
 
     return result;
 }
-
-
-
-function perimtr(a, b, c){
-
-    let result = (a + b +c);
-
-    return result;
-}
