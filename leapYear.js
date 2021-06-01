@@ -1,11 +1,7 @@
 function leapYear(year){
     let result;
     if (year % 4 ==0){
-        if (year % 100 ==0){
-          result = year % 400 ==0
-        } else {
-            result = true;
-        }
+        result = (year % 100 ==0) ? (year % 400 ==0) : true;
 
     } else {
         result = false;
