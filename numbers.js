@@ -5,10 +5,12 @@ function numbersSum(number){
     
     for (let i = 0; i < number+1 ; i+=1){
        
-        result += i;
+        result +=i;
         
     }
 
     return result;
     
 }
+
+
