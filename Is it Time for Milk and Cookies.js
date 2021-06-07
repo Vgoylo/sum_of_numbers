@@ -1,7 +1,16 @@
-function IsItTimeForMilkAndCookies(2013, 11, 24){
+function IsItTimeForMilkAndCookies(date){
 
-    let month = getMonth(2013, 11, 24);
-    let date = getDate(2013, 11, 24);
+    let result;
+    
+    let month = date.getMonth();//11
+    
+    let day = date.getDate();//24
+    
+    if (month == 11 && day == 24){
+        result = true
+    } else {
+        result = false;
+    }
 
-    if ()
+    return result;
 }
