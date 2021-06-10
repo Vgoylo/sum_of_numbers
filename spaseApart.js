@@ -16,7 +16,7 @@ function spaseApart(arr){
 
             }
             if(element === '1'){
-                flag = !false;
+                flag = !flag;
             }
             
         }
