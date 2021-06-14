@@ -8,9 +8,10 @@ function numbersSum(number){
         result +=i;
         
     }
+ /*number.forEach(numbe => {
+        result +=1;
+    })*/
 
     return result;
     
 }
-
-

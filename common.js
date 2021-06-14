@@ -11,8 +11,7 @@ function common(array1, array2){
         big = array2;
         small = array1;
 
-    }
-
+    
     for ( let i = 0; i < small.length; i+=1){
         let c = small[i];
         
